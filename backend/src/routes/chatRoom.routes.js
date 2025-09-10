@@ -17,3 +17,23 @@ router.post("/", async (req, res) => {
 });
 
 // get all chat rooms
+router.get("/", async (req, res) => {
+    
+});
+
+//get room details
+router.get("/:id", async (req, res) => {
+    
+});
+
+//join room
+router.post("/:id/join", async (req, res) => {
+    
+});
+
+//leave room 
+router.post("/:id/leave", async (req, res) => {
+    
+});
+
+export default router;
